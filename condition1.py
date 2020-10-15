@@ -9,11 +9,11 @@ def main():
 
     if speed <= limit:
         print('\nYour speed was legal.')
-    elif speed > limit and speed < 65:
-        fine = 80 + (speed - limit)*3
+    elif speed > limit and speed < 90: #JA
+        fine = 50 + (speed - limit)*5
         print('\nYour fine is $' + str(fine) + '.')
     else:
-        fine = 200 + (speed - limit)*3
+        fine = 250 + (speed - limit)*5
         print('\nYour fine will be $' + str(fine) + '.')
 
 main()
