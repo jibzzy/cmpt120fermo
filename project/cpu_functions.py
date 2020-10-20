@@ -2,6 +2,8 @@
 # Project 1
 # 16 October 2020
 
+# See the files that I added.
+
 def one_bit_adder(a,b,ci):
     if a > 1:
         print ("The number that you entered for the a value is not valid.")

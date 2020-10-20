@@ -6,7 +6,7 @@ def and_g(a,b):
     if a > 1:
         print("Number entered is not valid.")
     else:
-        return (a)
+        return (a) # How is this implementing an and
 
 def or_g(a,b):
     if a > 1:
@@ -14,7 +14,7 @@ def or_g(a,b):
     if b > 1:
         print("Number entered is not valid.")
     else:
-        if a >= b:
+        if a >= b: # This would return the wrong result
             return (a)
         if b >= a:
             return (b)
@@ -25,6 +25,7 @@ def not_g(a):
     else:
         return 1
 
+#These next two functions, you had to implement with the previous ones
 def nand_g(a,b):
     if a == 1 and b == 1:
         return 0
