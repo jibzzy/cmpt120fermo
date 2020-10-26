@@ -1,6 +1,7 @@
 # Introduction to Programming
 # Assignment
 # October 23rd 2020
+from graphics import *
 
 def main():
     win = GraphWin('Archery Target',300,300)
