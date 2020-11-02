@@ -30,10 +30,10 @@ def winOneGame():
         roll = 0
         while roll != roll_1 and roll !=7:
             roll = randrange(1, 7) + randrange(1, 7)
-        if roll == roll_1:
-            return True
-        else:
-            return False
+            if roll == roll_1: #JA
+                return True
+            else:
+                return False
 
 def printData(wins, n):
     prob = wins / n
