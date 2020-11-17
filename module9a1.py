@@ -10,6 +10,8 @@ class Tracker:
         self.circle.draw(self.win)
         self.win.getMouse
         self.win.close()
+
+    # update?
         
 class Projectile:
     def __init__(self, angle, velocity, height):

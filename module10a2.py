@@ -9,7 +9,7 @@ def shuffle(myList):
     while len(myList) > 0:
         ind = randrange(len(myList))
         newList.append(myList.pop(ind))
-    myList[:] = newList
+    myList = newList
 
-add myList[ind] to newList
-remove myList[ind] from myList
+#add myList[ind] to newList
+#remove myList[ind] from myList
