@@ -3,7 +3,7 @@
 # 11/20/20
 
 class Attendee:
-    def _init_(self, name, company, state,email):
+    def __init__(self, name, company, state,email):
         self.name = name
         self.company = company
         self.state = state
@@ -23,7 +23,7 @@ class Attendee:
                'Email: ' + self.email
 
 class AttendeeApp:
-    def _init_(self, interface, filename):
+    def __init__(self, interface, filename):
         self.interface = interface
         self.filename = filename
 
@@ -66,7 +66,7 @@ class AttendeeApp:
         file0bj.close()
         return lst
 
-    def save attendees(self):
+    def save_attendees(self):
         file0bj = open(self, filename, 'w')
         wirte_string = ''
         for person in self.attendees:
@@ -95,7 +95,7 @@ class AttendeeApp:
             print('(6) Quit')
 
         def choose(self):
-            choice = eval(input('\nSelect 1 - 5: '))\
+            choice = eval(input('\nSelect 1 - 5: '))
             return choice
         
 
